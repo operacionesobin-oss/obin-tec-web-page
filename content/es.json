@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "home": {
+      "title": "OBIN · Sistemas reales para PYMES en LATAM",
+      "description": "Consultoría y tecnología para PYMES en digitalización y escalamiento. ERPNext, automatización e IA sobre una sola fuente de verdad."
+    },
+    "servicios": {
+      "title": "Servicios · OBIN",
+      "description": "Implementación ERPNext, digitalización y automatización, integración de IA y consultoría estratégica para tu operación."
+    },
+    "plataforma": {
+      "title": "Plataforma · OBIN",
+      "description": "ERPNext y agentes de IA conectados a tu operación: finanzas, inventario, ventas y decisiones en tiempo real."
+    },
+    "casos": {
+      "title": "Casos de éxito · OBIN",
+      "description": "PYMES que pasaron de hojas de cálculo dispersas a una sola vista de su operación con OBIN."
+    },
+    "nosotros": {
+      "title": "Nosotros · OBIN",
+      "description": "Open Business Intelligence: consultoría y tecnología hecha con precisión en LATAM."
+    },
+    "contacto": {
+      "title": "Contacto · OBIN",
+      "description": "Agenda un diagnóstico de 30 minutos. Mapeamos tu situación y te mostramos qué tan lejos estás de un sistema real."
+    }
+  },
+  "nav": {
+    "servicios": "Servicios",
+    "plataforma": "Plataforma",
+    "casos": "Casos",
+    "nosotros": "Nosotros",
+    "blog": "Blog",
+    "login": "Iniciar sesión",
+    "cta": "Agendar diagnóstico",
+    "menu": "Abrir menú",
+    "close": "Cerrar menú",
+    "theme": "Tema",
+    "themeToLight": "Cambiar a modo claro",
+    "themeToDark": "Cambiar a modo oscuro"
+  },
+  "hero": {
+    "badge": "Sobre tecnología abierta",
+    "titleLead": "Una sola",
+    "titleHighlight": "fuente de verdad",
+    "titleTail": "para tu operación.",
+    "subtitle": "OBIN implementa ERPNext, automatiza tus procesos y conecta IA para que dejes las hojas de cálculo dispersas y tomes decisiones sobre datos reales.",
+    "ctaPrimary": "Agendar diagnóstico",
+    "ctaSecondary": "Ver cómo funciona",
+    "stats": [
+      {
+        "value": "40+",
+        "label": "PYMES implementadas"
+      },
+      {
+        "value": "~6 sem.",
+        "label": "Tiempo promedio al go-live"
+      },
+      {
+        "value": "100%",
+        "label": "Sobre tecnología abierta"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Servicios",
+    "title": "Todo lo que tu operación necesita, en un solo sistema.",
+    "items": [
+      {
+        "title": "Implementación ERPNext",
+        "description": "Un sistema completo para finanzas, inventario, ventas y operaciones. Sin fricciones ni licencias infladas."
+      },
+      {
+        "title": "Digitalización y automatización",
+        "description": "Reemplazamos hojas de cálculo por flujos trazables. Aprobaciones, conciliaciones y reportes en tiempo real."
+      },
+      {
+        "title": "Integración de IA",
+        "description": "Agentes conectados a tu ERP: resumen de cartera, conciliación de pagos y alertas predictivas."
+      },
+      {
+        "title": "Consultoría estratégica",
+        "description": "Diagnóstico, mapeo de procesos y plan de crecimiento orientado a orden, estructura y escalabilidad."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Proceso",
+    "title": "Cuatro etapas, una sola fuente de verdad.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Diagnóstico",
+        "description": "Mapeamos tu operación actual. Flujos, cuellos de botella, fuentes de verdad."
+      },
+      {
+        "num": "02",
+        "title": "Diseño",
+        "description": "Modelamos el ERP y definimos la jerarquía de datos y permisos."
+      },
+      {
+        "num": "03",
+        "title": "Implementación",
+        "description": "Configuramos ERPNext, migramos datos y entrenamos al equipo por área."
+      },
+      {
+        "num": "04",
+        "title": "Escalamiento",
+        "description": "Conectamos IA y automatizaciones. Iteramos sobre métricas reales."
+      }
+    ]
+  },
+  "testimonial": {
+    "quote": "Pasamos de cinco hojas de cálculo desconectadas a una sola vista de la operación en seis semanas. OBIN no vende software, nos devolvió el control.",
+    "name": "Mariana Restrepo",
+    "role": "CFO · Distribuidora Andina",
+    "tags": [
+      "ERPNext + módulo de tesorería",
+      "Implementación en 6 semanas"
+    ]
+  },
+  "ctaBand": {
+    "title": "Empecemos por un diagnóstico.",
+    "subtitle": "Una llamada de 30 minutos. Mapeamos tu situación y te mostramos qué tan lejos estás de un sistema real.",
+    "cta": "Agendar diagnóstico"
+  },
+  "footer": {
+    "tagline": "Open Business Intelligence. Consultoría y tecnología para PYMES en proceso de digitalización y escalamiento.",
+    "colServices": "Servicios",
+    "colCompany": "Empresa",
+    "colLegal": "Legal",
+    "services": [
+      "ERPNext",
+      "Automatización",
+      "IA aplicada",
+      "Consultoría"
+    ],
+    "company": [
+      "Nosotros",
+      "Casos",
+      "Blog",
+      "Contacto"
+    ],
+    "legal": [
+      "Privacidad",
+      "Términos",
+      "Seguridad"
+    ],
+    "madeIn": "hecho con precisión en LATAM",
+    "social": "Síguenos",
+    "socialWhatsapp": "Escríbenos por WhatsApp",
+    "socialInstagram": "OBIN en Instagram",
+    "socialFacebook": "OBIN en Facebook"
+  },
+  "pages": {
+    "servicios": {
+      "title": "Servicios",
+      "intro": "Cuatro frentes de trabajo que ordenan tu operación y la preparan para escalar."
+    },
+    "plataforma": {
+      "title": "Plataforma",
+      "intro": "ERPNext como columna vertebral, agentes de IA conectados encima. Una sola fuente de verdad para toda la empresa."
+    },
+    "casos": {
+      "title": "Casos de éxito",
+      "intro": "PYMES que dejaron el caos de las hojas de cálculo por sistemas reales."
+    },
+    "nosotros": {
+      "title": "Nosotros",
+      "intro": "Somos OBIN — Open Business Intelligence. Consultoría y tecnología hecha con precisión en LATAM, orientada a orden, estructura y escalabilidad."
+    },
+    "contacto": {
+      "title": "Agenda tu diagnóstico",
+      "intro": "Una llamada de 30 minutos. Mapeamos tu situación y te mostramos qué tan lejos estás de un sistema real.",
+      "name": "Nombre",
+      "email": "Correo",
+      "company": "Empresa",
+      "message": "Cuéntanos sobre tu operación",
+      "submit": "Solicitar diagnóstico",
+      "errorName": "Escribe tu nombre.",
+      "errorEmail": "Escribe un correo electrónico válido.",
+      "errorSummary": "Revisa los campos marcados."
+    }
+  }
+}

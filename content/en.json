@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "home": {
+      "title": "OBIN · Real systems for SMBs in LATAM",
+      "description": "Consulting and technology for SMBs digitizing and scaling. ERPNext, automation and AI on a single source of truth."
+    },
+    "servicios": {
+      "title": "Services · OBIN",
+      "description": "ERPNext implementation, digitization and automation, AI integration and strategic consulting for your operation."
+    },
+    "plataforma": {
+      "title": "Platform · OBIN",
+      "description": "ERPNext and AI agents connected to your operation: finance, inventory, sales and real-time decisions."
+    },
+    "casos": {
+      "title": "Case studies · OBIN",
+      "description": "SMBs that moved from scattered spreadsheets to a single view of their operation with OBIN."
+    },
+    "nosotros": {
+      "title": "About · OBIN",
+      "description": "Open Business Intelligence: consulting and technology built with precision in LATAM."
+    },
+    "contacto": {
+      "title": "Contact · OBIN",
+      "description": "Book a 30-minute diagnostic. We map your situation and show you how far you are from a real system."
+    }
+  },
+  "nav": {
+    "servicios": "Services",
+    "plataforma": "Platform",
+    "casos": "Cases",
+    "nosotros": "About",
+    "blog": "Blog",
+    "login": "Log in",
+    "cta": "Book a diagnostic",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "theme": "Theme",
+    "themeToLight": "Switch to light mode",
+    "themeToDark": "Switch to dark mode"
+  },
+  "hero": {
+    "badge": "On open technology",
+    "titleLead": "One",
+    "titleHighlight": "source of truth",
+    "titleTail": "for your operation.",
+    "subtitle": "OBIN implements ERPNext, automates your processes and connects AI so you can leave scattered spreadsheets behind and decide on real data.",
+    "ctaPrimary": "Book a diagnostic",
+    "ctaSecondary": "See how it works",
+    "stats": [
+      {
+        "value": "40+",
+        "label": "SMBs implemented"
+      },
+      {
+        "value": "~6 wks.",
+        "label": "Average time to go-live"
+      },
+      {
+        "value": "100%",
+        "label": "On open technology"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Everything your operation needs, in one system.",
+    "items": [
+      {
+        "title": "ERPNext implementation",
+        "description": "A complete system for finance, inventory, sales and operations. No friction, no bloated licenses."
+      },
+      {
+        "title": "Digitization and automation",
+        "description": "We replace spreadsheets with traceable flows. Approvals, reconciliations and real-time reports."
+      },
+      {
+        "title": "AI integration",
+        "description": "Agents connected to your ERP: receivables summaries, payment reconciliation and predictive alerts."
+      },
+      {
+        "title": "Strategic consulting",
+        "description": "Diagnostic, process mapping and a growth plan oriented to order, structure and scalability."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "Four stages, a single source of truth.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Diagnostic",
+        "description": "We map your current operation. Flows, bottlenecks, sources of truth."
+      },
+      {
+        "num": "02",
+        "title": "Design",
+        "description": "We model the ERP and define the data hierarchy and permissions."
+      },
+      {
+        "num": "03",
+        "title": "Implementation",
+        "description": "We configure ERPNext, migrate data and train the team by area."
+      },
+      {
+        "num": "04",
+        "title": "Scaling",
+        "description": "We connect AI and automations. We iterate on real metrics."
+      }
+    ]
+  },
+  "testimonial": {
+    "quote": "We went from five disconnected spreadsheets to a single view of the operation in six weeks. OBIN doesn't sell software — it gave us back control.",
+    "name": "Mariana Restrepo",
+    "role": "CFO · Distribuidora Andina",
+    "tags": [
+      "ERPNext + treasury module",
+      "Implemented in 6 weeks"
+    ]
+  },
+  "ctaBand": {
+    "title": "Let's start with a diagnostic.",
+    "subtitle": "A 30-minute call. We map your situation and show you how far you are from a real system.",
+    "cta": "Book a diagnostic"
+  },
+  "footer": {
+    "tagline": "Open Business Intelligence. Consulting and technology for SMBs digitizing and scaling.",
+    "colServices": "Services",
+    "colCompany": "Company",
+    "colLegal": "Legal",
+    "services": [
+      "ERPNext",
+      "Automation",
+      "Applied AI",
+      "Consulting"
+    ],
+    "company": [
+      "About",
+      "Cases",
+      "Blog",
+      "Contact"
+    ],
+    "legal": [
+      "Privacy",
+      "Terms",
+      "Security"
+    ],
+    "madeIn": "built with precision in LATAM",
+    "social": "Follow us",
+    "socialWhatsapp": "Message us on WhatsApp",
+    "socialInstagram": "OBIN on Instagram",
+    "socialFacebook": "OBIN on Facebook"
+  },
+  "pages": {
+    "servicios": {
+      "title": "Services",
+      "intro": "Four workstreams that bring order to your operation and get it ready to scale."
+    },
+    "plataforma": {
+      "title": "Platform",
+      "intro": "ERPNext as the backbone, AI agents connected on top. A single source of truth for the whole company."
+    },
+    "casos": {
+      "title": "Case studies",
+      "intro": "SMBs that left spreadsheet chaos behind for real systems."
+    },
+    "nosotros": {
+      "title": "About us",
+      "intro": "We are OBIN — Open Business Intelligence. Consulting and technology built with precision in LATAM, oriented to order, structure and scalability."
+    },
+    "contacto": {
+      "title": "Book your diagnostic",
+      "intro": "A 30-minute call. We map your situation and show you how far you are from a real system.",
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "message": "Tell us about your operation",
+      "submit": "Request diagnostic",
+      "errorName": "Enter your name.",
+      "errorEmail": "Enter a valid email address.",
+      "errorSummary": "Check the highlighted fields."
+    }
+  }
+}

@@ -1,0 +1,237 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Capa semántica sobre los tokens de marca. Los componentes nombran el rol
+     («superficie», «contenido», «acento»), no el valor; el tema decide el valor.
+     Los tokens de marca de `tailwind.config.ts` siguen siendo la fuente de
+     verdad: aquí sólo se eligen cuáles ocupan cada rol en cada tema.
+     Triplete RGB sin `rgb()` para que Tailwind pueda aplicar opacidad. */
+  :root {
+    color-scheme: light;
+
+    --surface: 255 255 255; /* página */
+    --surface-sunken: 247 249 253; /* banda tenue entre secciones */
+    --surface-raised: 255 255 255; /* tarjetas y campos */
+    --surface-brand: 27 42 107; /* obin-blue-900 — bandas profundas */
+
+    --line: 230 232 239; /* ink-150 */
+    --line-strong: 218 221 230; /* ink-200 */
+
+    --content: 15 18 32; /* ink-900 — titulares */
+    --content-secondary: 67 74 104; /* ink-600 — cuerpo */
+    --content-muted: 94 102 133; /* ink-500 — metadatos y placeholder */
+
+    --accent: 37 57 129; /* obin-blue-800 — azul de marca */
+    --accent-soft: 243 245 251; /* obin-blue-50 — fondo del acento */
+    --accent-btn: 37 57 129;
+    --accent-btn-hover: 47 69 150; /* obin-blue-700 */
+    --accent-ring: 65 86 168; /* obin-blue-600 — foco */
+
+    /* El degradado y la sombra son un token por tema, no dos clases. */
+    /* obin-blue-600, no 500: el texto de la banda se apoya en el extremo claro
+       del degradado, y con 500 el cuerpo al 80% se quedaba en 4.0:1. */
+    --gradient-from: 65 86 168;
+    --gradient-to: 37 57 129; /* obin-blue-800 */
+    --gradient-soft-from: 230 234 244; /* obin-blue-100 */
+    --gradient-soft-to: 205 212 232; /* obin-blue-200 */
+
+    --shadow-card: 0 4px 12px rgba(27, 42, 107, 0.08);
+
+    /* El único color fuera de la escala de marca: un error tiene que leerse
+       como error, no como acento. */
+    --danger: 180 35 24;
+  }
+
+  /* En oscuro el azul de marca no se puede usar tal cual: #253981 sobre fondo
+     oscuro no alcanza contraste. El acento sube de escala en vez de invertirse,
+     que es lo que mantiene la identidad en lugar de deslavarla. */
+  .dark {
+    color-scheme: dark;
+
+    --surface: 12 15 27;
+    --surface-sunken: 16 20 38;
+    --surface-raised: 22 27 47;
+    --surface-brand: 18 26 68; /* obin-blue-900 rebajado para no brillar */
+
+    --line: 36 42 66;
+    --line-strong: 47 54 82;
+
+    --content: 237 239 247;
+    --content-secondary: 174 182 206;
+    --content-muted: 139 147 174;
+
+    --accent: 159 176 224;
+    --accent-soft: 27 35 80;
+    --accent-btn: 65 86 168; /* obin-blue-600 */
+    --accent-btn-hover: 85 105 175; /* obin-blue-500 */
+    --accent-ring: 122 139 196; /* obin-blue-400 */
+
+    --gradient-from: 47 69 150;
+    --gradient-to: 21 30 76;
+    --gradient-soft-from: 27 35 80;
+    --gradient-soft-to: 18 24 56;
+
+    /* En oscuro la profundidad la da el borde, no la sombra de marca. */
+    --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.4);
+
+    --danger: 255 156 143;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    /* Evita el destello blanco del sobredesplazamiento en oscuro. */
+    @apply bg-surface;
+  }
+
+  body {
+    @apply bg-surface font-body text-content-secondary;
+  }
+
+  /* Un solo H1 por página; jerarquía tipográfica de marca */
+  h1 {
+    @apply font-display tracking-[-0.03em] text-content;
+    /* Peso normal en tamaños pequeños: la Light se adelgaza y se rompe a 40px.
+       El peso acompaña al tamaño, no al elemento. */
+    font-weight: 400;
+    font-size: clamp(40px, 8vw, 80px);
+    line-height: 1.02;
+    text-wrap: balance;
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-weight: 300;
+    }
+  }
+
+  h2 {
+    @apply font-display font-normal tracking-[-0.02em] text-content;
+    font-size: clamp(30px, 5vw, 44px);
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+
+  /* h3 era un rol copiado a mano en cada componente; ahora es sistema. */
+  h3 {
+    @apply font-display text-subhead font-medium text-content;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Foco visible accesible en todos los interactivos */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid rgb(var(--accent-ring));
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .container-obin {
+    @apply mx-auto w-full max-w-container px-5 md:px-10;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-[14px] bg-accent-btn px-[22px] py-[14px]
+      text-body font-semibold text-white transition-colors hover:bg-accent-btn-hover;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-[14px] border border-line-strong bg-surface-raised px-[22px] py-[14px]
+      text-body font-medium text-content-secondary transition-colors hover:border-content-muted;
+  }
+
+  .eyebrow {
+    @apply text-kicker font-semibold uppercase;
+  }
+
+  /* Medida de lectura cómoda. La unidad `ch` es el ancho del glifo «0», ~20%
+     más ancho que la media de minúsculas en Inter: 58ch de CSS equivalen a
+     ~72 caracteres reales por línea, dentro del rango de 45–75.
+     Aplicar a prosa, no a titulares. */
+  .measure {
+    max-width: 58ch;
+  }
+
+  .measure-tight {
+    max-width: 46ch;
+  }
+
+  /* Texto claro sobre fondo oscuro: se compensa en los tres ejes
+     perceptuales — interlínea, tracking y un paso de peso. */
+  .on-dark-body {
+    @apply text-white/80;
+    letter-spacing: 0.004em;
+    line-height: 1.72;
+  }
+
+  /* Sólo durante el cambio de tema: la superficie vira en un gesto en vez de
+     saltar. Fuera de ese instante la clase no está, así que no cuelga de los
+     hover ni encarece el pintado normal. */
+  .theme-switching,
+  .theme-switching *,
+  .theme-switching *::before,
+  .theme-switching *::after {
+    transition:
+      background-color 280ms cubic-bezier(0.16, 1, 0.3, 1),
+      border-color 280ms cubic-bezier(0.16, 1, 0.3, 1),
+      color 280ms cubic-bezier(0.16, 1, 0.3, 1),
+      fill 280ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Cifras y secuencias alineadas en columna */
+  .tnum {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum' 1;
+  }
+}
+
+/* Respeta la preferencia de reducir movimiento */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Estilo de impresión limpio: oculta nav/footer, texto negro sobre blanco.
+   El papel siempre es claro, aunque la pantalla esté en oscuro. */
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  :root,
+  .dark {
+    color-scheme: light;
+    --surface: 255 255 255;
+    --surface-sunken: 255 255 255;
+    --surface-raised: 255 255 255;
+    --content: 0 0 0;
+    --content-secondary: 0 0 0;
+    --content-muted: 0 0 0;
+  }
+  body {
+    color: #000;
+    background: #fff;
+  }
+  .container-obin {
+    max-width: 100%;
+    padding: 0;
+  }
+}
