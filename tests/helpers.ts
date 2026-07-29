@@ -1,18 +1,18 @@
 import type { Page } from '@playwright/test';
 
 export const ROUTES = [
-  '/es',
-  '/es/servicios',
-  '/es/plataforma',
-  '/es/casos',
-  '/es/nosotros',
-  '/es/contacto',
-  '/es/blog',
-  '/es/login',
-  '/es/legal/privacidad',
-  '/en',
-  '/en/servicios',
-  '/en/contacto',
+  '/es/',
+  '/es/servicios/',
+  '/es/plataforma/',
+  '/es/casos/',
+  '/es/nosotros/',
+  '/es/contacto/',
+  '/es/blog/',
+  '/es/login/',
+  '/es/legal/privacidad/',
+  '/en/',
+  '/en/servicios/',
+  '/en/contacto/',
 ];
 
 export type ContrastIssue = {

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+      Red de seguridad para la URL más importante del sitio. Normalmente no se
+      llega aquí: el .htaccess redirige la raíz antes de servir este fichero.
+      Sólo actúa si mod_rewrite estuviera desactivado, y por eso combina
+      refresco por meta (funciona sin JS), detección de idioma por JS y un
+      enlace visible como último recurso.
+    -->
+    <meta http-equiv="refresh" content="0; url=/es/" />
+    <link rel="canonical" href="/es/" />
+    <meta name="robots" content="noindex" />
+    <title>OBIN · Open Business Intelligence</title>
+    <script>
+      (function () {
+        var lang = (navigator.language || 'es').toLowerCase();
+        location.replace(lang.indexOf('en') === 0 ? '/en/' : '/es/');
+      })();
+    </script>
+  </head>
+  <body>
+    <p><a href="/es/">Continuar en español</a> · <a href="/en/">Continue in English</a></p>
+  </body>
+</html>

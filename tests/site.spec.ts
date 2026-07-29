@@ -67,9 +67,9 @@ test.describe('metadatos por página', () => {
   }
 
   test('el atributo lang sigue al locale', async ({ page }) => {
-    await page.goto('/es');
+    await page.goto('/es/');
     expect(await page.getAttribute('html', 'lang')).toBe('es');
-    await page.goto('/en');
+    await page.goto('/en/');
     expect(await page.getAttribute('html', 'lang')).toBe('en');
   });
 });
@@ -118,23 +118,23 @@ test.describe('enrutado e i18n', () => {
   });
 
   test('el selector de idioma conserva la ruta', async ({ page }) => {
-    await page.goto('/es/servicios');
+    await page.goto('/es/servicios/');
     await page.getByRole('link', { name: 'EN', exact: true }).click();
-    await expect(page).toHaveURL(/\/en\/servicios$/);
+    await expect(page).toHaveURL(/\/en\/servicios\/$/);
 
     await page.getByRole('link', { name: 'ES', exact: true }).click();
-    await expect(page).toHaveURL(/\/es\/servicios$/);
+    await expect(page).toHaveURL(/\/es\/servicios\/$/);
   });
 
   test('una ruta inexistente da 404', async ({ page }) => {
-    const res = await page.goto('/es/no-existe-esta-pagina');
+    const res = await page.goto('/es/no-existe-esta-pagina/');
     expect(res?.status()).toBe(404);
   });
 });
 
 test.describe('navegación y teclado', () => {
   test('el enlace de salto lleva al contenido', async ({ page }) => {
-    await page.goto('/es');
+    await page.goto('/es/');
     await page.keyboard.press('Tab');
     const skip = page.getByRole('link', { name: /Saltar al contenido/ });
     await expect(skip).toBeFocused();
@@ -145,7 +145,7 @@ test.describe('navegación y teclado', () => {
   test('el menú móvil abre, navega y cierra', async ({ browser }) => {
     const ctx = await browser.newContext({ viewport: { width: 390, height: 844 } });
     const page = await ctx.newPage();
-    await page.goto('/es');
+    await page.goto('/es/');
 
     const open = page.getByRole('button', { name: 'Abrir menú' });
     await expect(open).toHaveAttribute('aria-expanded', 'false');
@@ -159,14 +159,14 @@ test.describe('navegación y teclado', () => {
     );
 
     await menu.getByRole('link', { name: 'Servicios' }).click();
-    await expect(page).toHaveURL(/\/es\/servicios$/);
+    await expect(page).toHaveURL(/\/es\/servicios\/$/);
     // Al navegar el menú se repliega: si no, tapa la página de destino.
     await expect(page.locator('#mobile-menu')).toHaveCount(0);
     await ctx.close();
   });
 
   test('todo control interactivo es alcanzable con Tab', async ({ page }) => {
-    await page.goto('/es');
+    await page.goto('/es/');
     const focusables = await page.$$eval(
       'a[href], button:not([disabled]), input, textarea, select',
       (els) => els.filter((e) => (e as HTMLElement).offsetParent !== null).length
@@ -189,12 +189,12 @@ test.describe('conversión', () => {
       await page.goto(route);
       const cta = page.getByRole('link', { name: bookingCta }).first();
       await expect(cta, `sin CTA en ${route}`).toBeVisible();
-      await expect(cta).toHaveAttribute('href', /\/(es|en)\/contacto$/);
+      await expect(cta).toHaveAttribute('href', /\/(es|en)\/contacto\/$/);
     }
   });
 
   test('el formulario exige nombre y correo antes de enviar', async ({ page }) => {
-    await page.goto('/es/contacto');
+    await page.goto('/es/contacto/');
     const submit = page.getByRole('button', { name: 'Solicitar diagnóstico' });
 
     await submit.click();
@@ -221,7 +221,7 @@ test.describe('conversión', () => {
   });
 
   test('los errores del formulario están traducidos', async ({ page }) => {
-    await page.goto('/en/contacto');
+    await page.goto('/en/contacto/');
     await page.getByRole('button', { name: 'Request diagnostic' }).click();
     await expect(page.getByText('Enter your name.')).toBeVisible();
     await expect(page.getByText('Enter a valid email address.')).toBeVisible();
@@ -240,7 +240,7 @@ test.describe('imágenes y recursos', () => {
   });
 
   test('todo SVG informativo se anuncia o se oculta', async ({ page }) => {
-    await page.goto('/es');
+    await page.goto('/es/');
     // Un svg sin role ni aria-hidden es ruido para el lector de pantalla.
     const undeclared = await page.$$eval('svg', (svgs) =>
       svgs.filter((s) => !s.hasAttribute('aria-hidden') && !s.hasAttribute('role')).length
@@ -254,7 +254,7 @@ test.describe('robots y sitemap', () => {
     const res = await request.get('/sitemap.xml');
     expect(res.status()).toBe(200);
     const xml = await res.text();
-    for (const path of ['/es', '/en', '/es/servicios', '/en/servicios', '/es/contacto']) {
+    for (const path of ['/es/', '/en/', '/es/servicios/', '/en/servicios/', '/es/contacto/']) {
       expect(xml, `falta ${path}`).toContain(path);
     }
   });
@@ -306,7 +306,7 @@ test.describe('objetivos táctiles', () => {
   test('los controles del pie y la barra son cómodos en móvil', async ({ browser }) => {
     const ctx = await browser.newContext({ viewport: { width: 390, height: 844 } });
     const page = await ctx.newPage();
-    await page.goto('/es');
+    await page.goto('/es/');
 
     const small = await page.evaluate(() => {
       const out: string[] = [];

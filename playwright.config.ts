@@ -13,11 +13,12 @@ export default defineConfig({
     trace: 'retain-on-failure',
   },
   projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
-  // Se prueba el build de producción: el script de tema va en <head> y su
-  // comportamiento en dev (con overlay y sin minificar) no es el que se envía.
+  /* Se prueba el export estático servido con las reglas del .htaccess, que es
+     exactamente lo que Hostinger va a entregar. Requiere `npm run build`
+     previo: el servidor sirve `out/`, no compila. */
   webServer: {
-    command: `npx next start -p ${PORT}`,
-    url: `http://localhost:${PORT}/es`,
+    command: `node tests/static-server.mjs ${PORT}`,
+    url: `http://localhost:${PORT}/es/`,
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
   },
