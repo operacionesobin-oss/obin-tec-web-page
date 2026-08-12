@@ -5,6 +5,10 @@ export default function Testimonial({ dict }: { locale: Locale; dict: Dictionary
   const t = dict.testimonial;
   return (
     <section className="py-24">
+      <div className="container-obin mb-14">
+        <h2>{t.title}</h2>
+        <p className="mt-3 text-lead text-content-secondary">{t.subtitle}</p>
+      </div>
       {/* Se reparte en dos columnas sólo a partir de lg: en md la cita caía a
           ~24ch y se rompía en siete líneas. */}
       <div className="container-obin grid items-center gap-14 lg:grid-cols-[1fr_1.4fr]">
