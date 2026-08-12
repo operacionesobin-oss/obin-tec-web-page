@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import { getDictionary, isLocale, defaultLocale } from '@/lib/i18n';
 import { buildMetadata } from '@/lib/pageMeta';
 import PageHeader from '@/components/PageHeader';
+import ImageLightbox from '@/components/ImageLightbox';
 import Process from '@/components/Process';
 import CTABand from '@/components/CTABand';
 
@@ -25,7 +25,7 @@ export default function PlataformaPage({ params }: { params: { locale: string } 
           <div className="mt-14 grid gap-8 md:grid-cols-3">
             {p.modules.items.map((mod) => (
               <figure key={mod.title} className="overflow-hidden rounded-[20px] border border-border bg-surface-raised shadow-card">
-                <Image
+                <ImageLightbox
                   src={mod.image}
                   alt={mod.title}
                   width={800}
