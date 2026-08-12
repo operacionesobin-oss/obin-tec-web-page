@@ -148,15 +148,29 @@
     },
     "plataforma": {
       "title": "Plataforma",
-      "intro": "ERPNext como columna vertebral, agentes de IA conectados encima. Una sola fuente de verdad para toda la empresa."
+      "intro": "ERPNext como columna vertebral, agentes de IA conectados encima. Una sola fuente de verdad para toda la empresa.",
+      "modules": {
+        "title": "Sistema de gestión empresarial - ERPNext",
+        "subtitle": "Módulos existentes para tu operación",
+        "items": [
+          { "title": "Módulo Almacén", "image": "/images/erp/almacen.png" },
+          { "title": "Módulo Ventas", "image": "/images/erp/ventas.png" },
+          { "title": "Módulo Compras", "image": "/images/erp/compras.png" }
+        ]
+      }
     },
     "casos": {
       "title": "Casos de éxito",
-      "intro": "PYMES que dejaron el caos de las hojas de cálculo por sistemas reales."
+      "intro": "PYMES que dejaron el caos de las hojas de cálculo por sistemas reales.",
+      "collaboration": {
+        "title": "Programa de colaboración",
+        "description": "Este programa está diseñado para impulsar a emprendedores a que tengan su sistema de gestión empresarial, una amplia consultoría de procesos y mejora continua. A cambio de usar su caso como referencia publicitaria les damos una propuesta de descuento y pago a plazos en su implementación y capacitación."
+      }
     },
     "nosotros": {
       "title": "Nosotros",
-      "intro": "Somos OBIN — Open Business Intelligence. Consultoría y tecnología hecha con precisión en LATAM, orientada a orden, estructura y escalabilidad."
+      "intro": "Somos OBIN — Open Business Intelligence. Consultoría y tecnología hecha con precisión en LATAM, orientada a orden, estructura y escalabilidad.",
+      "about": "Obin Tech nace en el corazón de Aguascalientes, una consultoría de tecnología que brinda a sus clientes el apoyo profesional para cruzar la barrera de la digitalización de forma estructurada. Es con esto que Obin Tech se compromete a conocer y estudiar tu negocio para brindarle las herramientas justas para poder implementar un sistema de gestión empresarial."
     },
     "contacto": {
       "title": "Agenda tu diagnóstico",

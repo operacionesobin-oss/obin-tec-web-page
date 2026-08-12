@@ -17,6 +17,9 @@ export default function NosotrosPage({ params }: { params: { locale: string } })
   return (
     <>
       <PageHeader title={p.title} intro={p.intro} />
+      <section className="container-obin pb-16">
+        <p className="measure text-lead text-content-secondary">{p.about}</p>
+      </section>
       <Process locale={locale} dict={dict} />
       <CTABand locale={locale} dict={dict} />
     </>

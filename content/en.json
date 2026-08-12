@@ -148,15 +148,29 @@
     },
     "plataforma": {
       "title": "Platform",
-      "intro": "ERPNext as the backbone, AI agents connected on top. A single source of truth for the whole company."
+      "intro": "ERPNext as the backbone, AI agents connected on top. A single source of truth for the whole company.",
+      "modules": {
+        "title": "Business management system - ERPNext",
+        "subtitle": "Existing modules for your operation",
+        "items": [
+          { "title": "Warehouse Module", "image": "/images/erp/almacen.png" },
+          { "title": "Sales Module", "image": "/images/erp/ventas.png" },
+          { "title": "Purchasing Module", "image": "/images/erp/compras.png" }
+        ]
+      }
     },
     "casos": {
       "title": "Case studies",
-      "intro": "SMBs that left spreadsheet chaos behind for real systems."
+      "intro": "SMBs that left spreadsheet chaos behind for real systems.",
+      "collaboration": {
+        "title": "Collaboration program",
+        "description": "This program is designed to help entrepreneurs get their business management system, comprehensive process consulting and continuous improvement. In exchange for using their case as an advertising reference, we offer a discount proposal and installment payments for their implementation and training."
+      }
     },
     "nosotros": {
       "title": "About us",
-      "intro": "We are OBIN — Open Business Intelligence. Consulting and technology built with precision in LATAM, oriented to order, structure and scalability."
+      "intro": "We are OBIN — Open Business Intelligence. Consulting and technology built with precision in LATAM, oriented to order, structure and scalability.",
+      "about": "Obin Tech was born in the heart of Aguascalientes, a technology consultancy that provides its clients with the professional support to cross the digitalization barrier in a structured way. With this, Obin Tech is committed to understanding and studying your business to provide the right tools to implement a business management system."
     },
     "contacto": {
       "title": "Book your diagnostic",
