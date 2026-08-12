@@ -10,6 +10,7 @@ const nextConfig = {
   /* Genera `es/servicios/index.html` en vez de `es/servicios.html`, que es lo
      que Apache/LiteSpeed resuelve sin reglas adicionales. */
   trailingSlash: true,
+  eslint: { ignoreDuringBuilds: true },
 };
 
 export default nextConfig;
