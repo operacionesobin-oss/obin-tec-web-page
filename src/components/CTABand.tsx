@@ -1,8 +1,7 @@
-import Link from 'next/link';
 import type { Dictionary, Locale } from '@/lib/i18n';
 import { ArrowRight } from './icons';
 
-export default function CTABand({ locale, dict }: { locale: Locale; dict: Dictionary }) {
+export default function CTABand({ dict }: { locale: Locale; dict: Dictionary }) {
   const t = dict.ctaBand;
   return (
     <section className="container-obin pb-24">
@@ -11,13 +10,15 @@ export default function CTABand({ locale, dict }: { locale: Locale; dict: Dictio
           <h2 className="text-white">{t.title}</h2>
           <p className="on-dark-body mt-3.5 text-body-lg">{t.subtitle}</p>
         </div>
-        <Link
-          href={`/${locale}/contacto`}
+        <a
+          href="https://wa.me/message/5OHEUBLLDTBIN1"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex shrink-0 items-center gap-2 rounded-[14px] bg-white px-[26px] py-4 text-body font-semibold text-obin-blue-800 transition-transform hover:-translate-y-0.5"
         >
           {t.cta}
           <ArrowRight />
-        </Link>
+        </a>
       </div>
     </section>
   );

@@ -40,68 +40,55 @@
     "themeToDark": "Cambiar a modo oscuro"
   },
   "hero": {
-    "badge": "Sobre tecnología abierta",
+    "badge": "Tecnología abierta",
     "titleLead": "Una sola",
     "titleHighlight": "fuente de verdad",
     "titleTail": "para tu operación.",
-    "subtitle": "OBIN implementa ERPNext, automatiza tus procesos y conecta IA para que dejes las hojas de cálculo dispersas y tomes decisiones sobre datos reales.",
-    "ctaPrimary": "Agendar diagnóstico",
+    "subtitle": "Obin Tech implementa sistemas de gestión empresarial, automatiza tus procesos y diseña las soluciones a tu medida.",
+    "ctaPrimary": "Agenda una llamada",
     "ctaSecondary": "Ver cómo funciona",
-    "stats": [
-      {
-        "value": "40+",
-        "label": "PYMES implementadas"
-      },
-      {
-        "value": "~6 sem.",
-        "label": "Tiempo promedio al go-live"
-      },
-      {
-        "value": "100%",
-        "label": "Sobre tecnología abierta"
-      }
-    ]
+    "stats": []
   },
   "services": {
     "eyebrow": "Servicios",
     "title": "Todo lo que tu operación necesita, en un solo sistema.",
     "items": [
       {
-        "title": "Implementación ERPNext",
-        "description": "Un sistema completo para finanzas, inventario, ventas y operaciones. Sin fricciones ni licencias infladas."
+        "title": "Implementación de sistema de gestión empresarial",
+        "description": "Un sistema completo para ventas, inventario, compras, finanzas y operaciones. Sin fricciones ni licencias infladas."
       },
       {
         "title": "Digitalización y automatización",
-        "description": "Reemplazamos hojas de cálculo por flujos trazables. Aprobaciones, conciliaciones y reportes en tiempo real."
+        "description": "Reemplazamos hojas de cálculo por flujos trazables estudiados. Aprobaciones, conciliaciones y reportes en tiempo real."
       },
       {
         "title": "Integración de IA",
-        "description": "Agentes conectados a tu ERP: resumen de cartera, conciliación de pagos y alertas predictivas."
+        "description": "Integración de chatbots para ventas y CRM. Automatizaciones con IA y desarrollo a medida."
       },
       {
         "title": "Consultoría estratégica",
-        "description": "Diagnóstico, mapeo de procesos y plan de crecimiento orientado a orden, estructura y escalabilidad."
+        "description": "Diagnóstico, mapeo de procesos y plan de crecimiento orientado a orden, estructura y escalabilidad del negocio. Justifica tu inversión."
       }
     ]
   },
   "process": {
     "eyebrow": "Proceso",
-    "title": "Cuatro etapas, una sola fuente de verdad.",
+    "title": "Cuatro etapas.",
     "steps": [
       {
         "num": "01",
         "title": "Diagnóstico",
-        "description": "Mapeamos tu operación actual. Flujos, cuellos de botella, fuentes de verdad."
+        "description": "Mapeamos tu operación actual. Flujos, cuellos de botella, procesos reales de tu negocio."
       },
       {
         "num": "02",
         "title": "Diseño",
-        "description": "Modelamos el ERP y definimos la jerarquía de datos y permisos."
+        "description": "Trabajamos el desarrollo del sistema y definimos la jerarquía de datos y permisos."
       },
       {
         "num": "03",
         "title": "Implementación",
-        "description": "Configuramos ERPNext, migramos datos y entrenamos al equipo por área."
+        "description": "Configuramos el sistema, migramos datos y entrenamos al equipo por área."
       },
       {
         "num": "04",
@@ -111,17 +98,19 @@
     ]
   },
   "testimonial": {
-    "quote": "Pasamos de cinco hojas de cálculo desconectadas a una sola vista de la operación en seis semanas. OBIN no vende software, nos devolvió el control.",
-    "name": "Mariana Restrepo",
-    "role": "CFO · Distribuidora Andina",
+    "title": "Casos de éxito",
+    "subtitle": "PYMES que dejaron el caos de las hojas de cálculo por sistemas reales.",
+    "quote": "Convertimos notas y libretas con información poco confiable en un sistema robusto y práctico, que no solo brinda una información más confiable, sino que también una operación que impacta directamente en el valor del negocio.",
+    "name": "Don Juan",
+    "role": "Dueño de Farmacia y Comercializadora Marcos",
     "tags": [
-      "ERPNext + módulo de tesorería",
-      "Implementación en 6 semanas"
+      "Sistema de gestión empresarial + Almacén, Ventas y Compras",
+      "Implementación 6 semanas"
     ]
   },
   "ctaBand": {
     "title": "Empecemos por un diagnóstico.",
-    "subtitle": "Una llamada de 30 minutos. Mapeamos tu situación y te mostramos qué tan lejos estás de un sistema real.",
+    "subtitle": "Una llamada de 30 minutos. Mapeamos tu situación y te mostramos qué tan cercas estás de un sistema real.",
     "cta": "Agendar diagnóstico"
   },
   "footer": {

@@ -32,14 +32,6 @@ export default function Hero({ locale, dict }: { locale: Locale; dict: Dictionar
         </a>
       </div>
 
-      <dl className="mt-16 flex flex-wrap gap-x-12 gap-y-8 text-meta text-content-muted">
-        {t.stats.map((s) => (
-          <div key={s.label} className="max-w-[200px]">
-            <dd className="tnum font-display text-stat font-medium text-content">{s.value}</dd>
-            <dt className="mt-1.5">{s.label}</dt>
-          </div>
-        ))}
-      </dl>
     </section>
   );
 }

@@ -40,68 +40,55 @@
     "themeToDark": "Switch to dark mode"
   },
   "hero": {
-    "badge": "On open technology",
+    "badge": "Open technology",
     "titleLead": "One",
     "titleHighlight": "source of truth",
     "titleTail": "for your operation.",
-    "subtitle": "OBIN implements ERPNext, automates your processes and connects AI so you can leave scattered spreadsheets behind and decide on real data.",
-    "ctaPrimary": "Book a diagnostic",
+    "subtitle": "Obin Tech implements business management systems, automates your processes and designs solutions tailored to your needs.",
+    "ctaPrimary": "Book a call",
     "ctaSecondary": "See how it works",
-    "stats": [
-      {
-        "value": "40+",
-        "label": "SMBs implemented"
-      },
-      {
-        "value": "~6 wks.",
-        "label": "Average time to go-live"
-      },
-      {
-        "value": "100%",
-        "label": "On open technology"
-      }
-    ]
+    "stats": []
   },
   "services": {
     "eyebrow": "Services",
     "title": "Everything your operation needs, in one system.",
     "items": [
       {
-        "title": "ERPNext implementation",
-        "description": "A complete system for finance, inventory, sales and operations. No friction, no bloated licenses."
+        "title": "Business management system implementation",
+        "description": "A complete system for sales, inventory, purchasing, finance and operations. No friction, no bloated licenses."
       },
       {
         "title": "Digitization and automation",
-        "description": "We replace spreadsheets with traceable flows. Approvals, reconciliations and real-time reports."
+        "description": "We replace spreadsheets with studied traceable flows. Approvals, reconciliations and real-time reports."
       },
       {
         "title": "AI integration",
-        "description": "Agents connected to your ERP: receivables summaries, payment reconciliation and predictive alerts."
+        "description": "Chatbot integration for sales and CRM. AI-powered automations and custom development."
       },
       {
         "title": "Strategic consulting",
-        "description": "Diagnostic, process mapping and a growth plan oriented to order, structure and scalability."
+        "description": "Diagnostic, process mapping and a growth plan oriented to order, structure and business scalability. Justify your investment."
       }
     ]
   },
   "process": {
     "eyebrow": "Process",
-    "title": "Four stages, a single source of truth.",
+    "title": "Four stages.",
     "steps": [
       {
         "num": "01",
         "title": "Diagnostic",
-        "description": "We map your current operation. Flows, bottlenecks, sources of truth."
+        "description": "We map your current operation. Flows, bottlenecks, real processes of your business."
       },
       {
         "num": "02",
         "title": "Design",
-        "description": "We model the ERP and define the data hierarchy and permissions."
+        "description": "We work on the system development and define the data hierarchy and permissions."
       },
       {
         "num": "03",
         "title": "Implementation",
-        "description": "We configure ERPNext, migrate data and train the team by area."
+        "description": "We configure the system, migrate data and train the team by area."
       },
       {
         "num": "04",
@@ -111,17 +98,19 @@
     ]
   },
   "testimonial": {
-    "quote": "We went from five disconnected spreadsheets to a single view of the operation in six weeks. OBIN doesn't sell software — it gave us back control.",
-    "name": "Mariana Restrepo",
-    "role": "CFO · Distribuidora Andina",
+    "title": "Case studies",
+    "subtitle": "SMBs that left spreadsheet chaos behind for real systems.",
+    "quote": "We turned unreliable notes and notebooks into a robust and practical system that not only provides more reliable information, but also an operation that directly impacts the value of the business.",
+    "name": "Don Juan",
+    "role": "Owner of Farmacia y Comercializadora Marcos",
     "tags": [
-      "ERPNext + treasury module",
-      "Implemented in 6 weeks"
+      "Business management system + Warehouse, Sales and Purchasing",
+      "Implementation 6 weeks"
     ]
   },
   "ctaBand": {
     "title": "Let's start with a diagnostic.",
-    "subtitle": "A 30-minute call. We map your situation and show you how far you are from a real system.",
+    "subtitle": "A 30-minute call. We map your situation and show you how close you are to a real system.",
     "cta": "Book a diagnostic"
   },
   "footer": {
