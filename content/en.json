@@ -163,8 +163,125 @@
       "title": "Case studies",
       "intro": "SMBs that left spreadsheet chaos behind for real systems.",
       "collaboration": {
-        "title": "Collaboration program",
-        "description": "This program is designed to help entrepreneurs get their business management system, comprehensive process consulting and continuous improvement. In exchange for using their case as an advertising reference, we offer a discount proposal and installment payments for their implementation and training."
+        "eyebrow": "Collaborator program",
+        "title": "Your management system on better terms, in exchange for your story.",
+        "intro": [
+          "The Collaborator Program is a special way of working with OBIN, designed for entrepreneurs and small trading companies that want to digitize their operation with a business management system (ERPNext) and guidance on improving their processes, but don't yet have the budget for a standard implementation.",
+          "In exchange for preferential terms —a discount and installment payments— the collaborator authorizes their project to be used as a public reference: a testimonial, a case study and portfolio material for OBIN."
+        ],
+        "note": {
+          "title": "It is not a free service.",
+          "description": "It is a preferential-terms arrangement: you always cover part of the project, but on better terms than a standard implementation."
+        },
+        "audience": {
+          "title": "This program is for you if:",
+          "items": [
+            "You run a business that is actually operating (not a project still on paper).",
+            "Your purchasing, sales, inventory or invoicing processes can be clearly digitized.",
+            "You are willing to make your business a public case: authorizing the use of your name, brand and testimonial.",
+            "You can make a partial payment (the program doesn't replace payment, it makes it more accessible)."
+          ]
+        },
+        "steps": {
+          "eyebrow": "How it works",
+          "title": "Seven steps, from first contact to your published case.",
+          "items": [
+            {
+              "num": "01",
+              "title": "Initial contact",
+              "description": "You tell us about your business and your needs."
+            },
+            {
+              "num": "02",
+              "title": "Diagnostic",
+              "description": "We analyze the size of your business and the complexity of your processes to define the project scope."
+            },
+            {
+              "num": "03",
+              "title": "Collaboration proposal",
+              "description": "We present the discount percentage and the installment plan that apply to your case."
+            },
+            {
+              "num": "04",
+              "title": "Signing the agreement",
+              "description": "We put in writing the project scope, the discount, the payment schedule and the authorization to use your case as a reference."
+            },
+            {
+              "num": "05",
+              "title": "Implementation and training",
+              "description": "We carry out the ERP project and process consulting as agreed."
+            },
+            {
+              "num": "06",
+              "title": "Case documentation",
+              "description": "Together we gather the metrics, the testimonial and the visual material from the project."
+            },
+            {
+              "num": "07",
+              "title": "Publication",
+              "description": "Your case becomes a reference in OBIN's portfolio and channels."
+            }
+          ]
+        },
+        "scope": {
+          "title": "What's included and what isn't",
+          "headers": {
+            "area": "Area",
+            "includes": "Included",
+            "excludes": "Not included"
+          },
+          "rows": [
+            {
+              "area": "ERP system",
+              "includes": "ERPNext implementation within the scope defined in the diagnostic.",
+              "excludes": "Custom development outside the agreed scope."
+            },
+            {
+              "area": "Process consulting",
+              "includes": "Mapping and improvement of the key processes defined in the diagnostic.",
+              "excludes": "Open-ended or unlimited consulting beyond the agreed processes."
+            },
+            {
+              "area": "Training",
+              "includes": "Training for your team on how to use the system.",
+              "excludes": "Indefinite ongoing training, or training for new staff after the project closes."
+            },
+            {
+              "area": "Cost",
+              "includes": "A discount on the standard rate (defined case by case) and installment payments.",
+              "excludes": "A free service; part of the project is always covered by you."
+            },
+            {
+              "area": "Support",
+              "includes": "Support during implementation and the stabilization period.",
+              "excludes": "24/7 support or an enterprise-level SLA."
+            },
+            {
+              "area": "Licenses and third parties",
+              "includes": "Setup of integrations already quoted (for example, CFDI e-invoicing).",
+              "excludes": "Cost of licenses, CFDI stamping provider (PAC), hosting or third-party services."
+            }
+          ]
+        },
+        "asks": {
+          "title": "What we ask of you as a collaborator",
+          "items": [
+            "Authorize the use of your name or brand, testimonial, screenshots and project metrics as a public success story.",
+            "Take part in documenting the case: an interview, a short video or a written testimonial.",
+            "Keep to the agreed installment plan.",
+            "Provide the information and availability needed during the diagnostic and implementation."
+          ]
+        },
+        "offers": {
+          "title": "What OBIN offers you",
+          "items": [
+            "A serious diagnostic of your project before we offer you terms.",
+            "A transparent discount, justified by the analysis of your case.",
+            "A clear installment plan for implementation and training.",
+            "The same delivery quality as a fully paid project."
+          ]
+        },
+        "closing": "Interested in taking part? Get in touch and we'll gladly schedule your initial diagnostic."
       }
     },
     "nosotros": {

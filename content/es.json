@@ -163,8 +163,125 @@
       "title": "Casos de éxito",
       "intro": "PYMES que dejaron el caos de las hojas de cálculo por sistemas reales.",
       "collaboration": {
-        "title": "Programa de colaboración",
-        "description": "Este programa está diseñado para impulsar a emprendedores a que tengan su sistema de gestión empresarial, una amplia consultoría de procesos y mejora continua. A cambio de usar su caso como referencia publicitaria les damos una propuesta de descuento y pago a plazos en su implementación y capacitación."
+        "eyebrow": "Programa de colaboradores",
+        "title": "Tu sistema de gestión en mejores términos, a cambio de tu historia.",
+        "intro": [
+          "El Programa de Colaboradores es una forma especial de trabajar con OBIN pensada para emprendedores y comercializadoras pequeñas que quieren digitalizar su operación con un sistema de gestión empresarial (ERPNext) y acompañamiento en la mejora de sus procesos, pero que todavía no cuentan con el presupuesto de una implementación estándar.",
+          "A cambio de condiciones preferenciales —descuento y pago a plazos— el colaborador autoriza que su proyecto se use como referencia pública: testimonio, caso de estudio y material de portafolio para OBIN."
+        ],
+        "note": {
+          "title": "No es un servicio gratuito.",
+          "description": "Es un esquema de condiciones preferenciales: tú siempre cubres una parte del proyecto, pero en mejores términos que una implementación estándar."
+        },
+        "audience": {
+          "title": "Este programa es para ti si:",
+          "items": [
+            "Tienes un negocio en operación real (no un proyecto aún en papel).",
+            "Tus procesos de compras, ventas, inventario o facturación se pueden digitalizar de forma clara.",
+            "Estás dispuesto a que tu negocio sea un caso público: autorizar el uso de tu nombre, marca y testimonio.",
+            "Cuentas con capacidad de pago parcial (el programa no sustituye el pago, lo hace más accesible)."
+          ]
+        },
+        "steps": {
+          "eyebrow": "Cómo funciona",
+          "title": "Siete pasos, del primer contacto a tu caso publicado.",
+          "items": [
+            {
+              "num": "01",
+              "title": "Contacto inicial",
+              "description": "Nos cuentas sobre tu negocio y tus necesidades."
+            },
+            {
+              "num": "02",
+              "title": "Diagnóstico",
+              "description": "Analizamos el tamaño de tu negocio y la complejidad de tus procesos para definir el alcance del proyecto."
+            },
+            {
+              "num": "03",
+              "title": "Propuesta de colaboración",
+              "description": "Te presentamos el porcentaje de descuento y el plan de pago a plazos que aplican a tu caso."
+            },
+            {
+              "num": "04",
+              "title": "Firma del acuerdo",
+              "description": "Formalizamos por escrito el alcance del proyecto, el descuento, los plazos de pago y la autorización de uso de tu caso como referencia."
+            },
+            {
+              "num": "05",
+              "title": "Implementación y capacitación",
+              "description": "Ejecutamos el proyecto de ERP y consultoría de procesos según lo acordado."
+            },
+            {
+              "num": "06",
+              "title": "Documentación del caso",
+              "description": "Recopilamos contigo las métricas, el testimonio y el material visual del proyecto."
+            },
+            {
+              "num": "07",
+              "title": "Publicación",
+              "description": "Tu caso se convierte en referencia dentro del portafolio y los canales de OBIN."
+            }
+          ]
+        },
+        "scope": {
+          "title": "Qué incluye y qué no incluye",
+          "headers": {
+            "area": "Rubro",
+            "includes": "Incluye",
+            "excludes": "No incluye"
+          },
+          "rows": [
+            {
+              "area": "Sistema ERP",
+              "includes": "Implementación de ERPNext según el alcance definido en el diagnóstico.",
+              "excludes": "Desarrollos a la medida fuera del alcance pactado."
+            },
+            {
+              "area": "Consultoría de procesos",
+              "includes": "Mapeo y mejora de los procesos clave definidos en el diagnóstico.",
+              "excludes": "Consultoría abierta o ilimitada fuera de los procesos acordados."
+            },
+            {
+              "area": "Capacitación",
+              "includes": "Capacitación a tu equipo sobre el uso del sistema.",
+              "excludes": "Capacitación continua indefinida o para personal nuevo tras el cierre del proyecto."
+            },
+            {
+              "area": "Costo",
+              "includes": "Descuento sobre la tarifa estándar (definido caso por caso) y pago a plazos.",
+              "excludes": "Servicio gratuito; siempre se cubre una parte del proyecto."
+            },
+            {
+              "area": "Soporte",
+              "includes": "Soporte durante la implementación y el periodo de estabilización.",
+              "excludes": "Soporte 24/7 o SLA de nivel empresarial."
+            },
+            {
+              "area": "Licencias y terceros",
+              "includes": "Configuración de integraciones ya cotizadas (por ejemplo, CFDI).",
+              "excludes": "Costo de licencias, PAC de timbrado, hosting o servicios de terceros."
+            }
+          ]
+        },
+        "asks": {
+          "title": "Lo que te pedimos como colaborador",
+          "items": [
+            "Autorizar el uso de tu nombre o marca, testimonio, capturas de pantalla y métricas del proyecto como caso de éxito público.",
+            "Participar en la documentación del caso: una entrevista, un video corto o un testimonio escrito.",
+            "Cumplir con el plan de pagos a plazos acordado.",
+            "Brindar la información y disponibilidad necesarias durante el diagnóstico y la implementación."
+          ]
+        },
+        "offers": {
+          "title": "Lo que te ofrece OBIN",
+          "items": [
+            "Un diagnóstico serio de tu proyecto antes de ofrecerte condiciones.",
+            "Un descuento transparente y justificado según el análisis de tu caso.",
+            "Un plan de pago a plazos claro para la implementación y la capacitación.",
+            "La misma calidad de entrega que un proyecto de pago completo."
+          ]
+        },
+        "closing": "¿Te interesa participar? Contáctanos y con gusto agendamos tu diagnóstico inicial."
       }
     },
     "nosotros": {
