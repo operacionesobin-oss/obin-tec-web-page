@@ -5,6 +5,7 @@ export const ROUTES = [
   '/es/servicios/',
   '/es/plataforma/',
   '/es/casos/',
+  '/es/casos/programa-colaboradores/',
   '/es/nosotros/',
   '/es/contacto/',
   '/es/blog/',

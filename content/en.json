@@ -16,6 +16,10 @@
       "title": "Case studies · OBIN",
       "description": "SMBs that moved from scattered spreadsheets to a single view of their operation with OBIN."
     },
+    "colaboradores": {
+      "title": "Collaborator Program · OBIN",
+      "description": "Get ERPNext implemented with a discount and installment payments in exchange for your project becoming a public OBIN success story."
+    },
     "nosotros": {
       "title": "About · OBIN",
       "description": "Open Business Intelligence: consulting and technology built with precision in LATAM."
@@ -163,6 +167,7 @@
       "title": "Case studies",
       "intro": "SMBs that left spreadsheet chaos behind for real systems.",
       "collaborationTeaser": {
+        "back": "Case studies",
         "title": "Could your business be our next success story?",
         "description": "Get your ERP implemented with a discount and installment payments in exchange for telling your story.",
         "cta": "Explore the Collaborator Program"

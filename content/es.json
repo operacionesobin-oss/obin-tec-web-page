@@ -16,6 +16,10 @@
       "title": "Casos de éxito · OBIN",
       "description": "PYMES que pasaron de hojas de cálculo dispersas a una sola vista de su operación con OBIN."
     },
+    "colaboradores": {
+      "title": "Programa de Colaboradores · OBIN",
+      "description": "Implementa ERPNext con descuento y pago a plazos a cambio de que tu proyecto sea un caso de éxito público de OBIN."
+    },
     "nosotros": {
       "title": "Nosotros · OBIN",
       "description": "Open Business Intelligence: consultoría y tecnología hecha con precisión en LATAM."
@@ -163,6 +167,7 @@
       "title": "Casos de éxito",
       "intro": "PYMES que dejaron el caos de las hojas de cálculo por sistemas reales.",
       "collaborationTeaser": {
+        "back": "Casos de éxito",
         "title": "¿Tu negocio puede ser nuestro próximo caso de éxito?",
         "description": "Implementa tu ERP con descuento y pago a plazos a cambio de contar tu historia.",
         "cta": "Conoce el Programa de Colaboradores"

@@ -5,7 +5,7 @@ export default function CollaborationProgram({ dict }: { locale: Locale; dict: D
   const t = dict.pages.casos.collaboration;
   return (
     <>
-      <section id="colaboradores" className="scroll-mt-[72px] bg-surface-sunken py-24">
+      <section className="bg-surface-sunken py-24">
         <div className="container-obin grid gap-14 lg:grid-cols-[1.2fr_1fr]">
           <div>
             <p className="eyebrow text-accent">{t.eyebrow}</p>
