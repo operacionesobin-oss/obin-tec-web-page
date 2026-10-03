@@ -162,6 +162,11 @@
     "casos": {
       "title": "Case studies",
       "intro": "SMBs that left spreadsheet chaos behind for real systems.",
+      "collaborationTeaser": {
+        "title": "Could your business be our next success story?",
+        "description": "Get your ERP implemented with a discount and installment payments in exchange for telling your story.",
+        "cta": "Explore the Collaborator Program"
+      },
       "collaboration": {
         "eyebrow": "Collaborator program",
         "title": "Your management system on better terms, in exchange for your story.",

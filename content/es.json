@@ -162,6 +162,11 @@
     "casos": {
       "title": "Casos de éxito",
       "intro": "PYMES que dejaron el caos de las hojas de cálculo por sistemas reales.",
+      "collaborationTeaser": {
+        "title": "¿Tu negocio puede ser nuestro próximo caso de éxito?",
+        "description": "Implementa tu ERP con descuento y pago a plazos a cambio de contar tu historia.",
+        "cta": "Conoce el Programa de Colaboradores"
+      },
       "collaboration": {
         "eyebrow": "Programa de colaboradores",
         "title": "Tu sistema de gestión en mejores términos, a cambio de tu historia.",
