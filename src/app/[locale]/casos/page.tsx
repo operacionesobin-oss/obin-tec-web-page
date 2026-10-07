@@ -37,7 +37,7 @@ export default function CasosPage({ params }: { params: { locale: string } }) {
           </span>
         </Link>
       </div>
-      <Testimonial locale={locale} dict={dict} />
+      <Testimonial locale={locale} dict={dict} showHeader={false} />
       <CTABand locale={locale} dict={dict} />
     </>
   );

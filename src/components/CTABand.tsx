@@ -1,4 +1,5 @@
 import type { Dictionary, Locale } from '@/lib/i18n';
+import { whatsappUrl } from '@/lib/social';
 import { ArrowRight } from './icons';
 
 export default function CTABand({ dict }: { locale: Locale; dict: Dictionary }) {
@@ -11,7 +12,7 @@ export default function CTABand({ dict }: { locale: Locale; dict: Dictionary }) 
           <p className="on-dark-body mt-3.5 text-body-lg">{t.subtitle}</p>
         </div>
         <a
-          href="https://wa.me/message/5OHEUBLLDTBIN1"
+          href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex shrink-0 items-center gap-2 rounded-[14px] bg-white px-[26px] py-4 text-body font-semibold text-obin-blue-800 transition-transform hover:-translate-y-0.5"

@@ -1,5 +1,6 @@
 import type { Dictionary, Locale } from '@/lib/i18n';
-import { Check, Minus } from './icons';
+import { whatsappUrl } from '@/lib/social';
+import { ArrowRight, Check, Minus } from './icons';
 
 export default function CollaborationProgram({ dict }: { locale: Locale; dict: Dictionary }) {
   const t = dict.pages.casos.collaboration;
@@ -123,7 +124,26 @@ export default function CollaborationProgram({ dict }: { locale: Locale; dict: D
               </article>
             ))}
           </div>
-          <p className="measure mt-12 text-lead text-content">{t.closing}</p>
+        </div>
+      </section>
+
+      {/* Cierre de la página: sustituye a la CTABand genérica para que la
+          invitación hable del programa y no se repita el llamado a la acción. */}
+      <section className="container-obin py-24">
+        <div className="flex flex-col items-start justify-between gap-8 rounded-[24px] bg-obin-gradient px-8 py-14 text-white md:flex-row md:items-center md:px-14">
+          <div className="max-w-[560px]">
+            <h2 className="text-white">{t.closing.title}</h2>
+            <p className="on-dark-body mt-3.5 text-body-lg">{t.closing.description}</p>
+          </div>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex shrink-0 items-center gap-2 rounded-[14px] bg-white px-[26px] py-4 text-body font-semibold text-obin-blue-800 transition-transform hover:-translate-y-0.5"
+          >
+            {t.closing.cta}
+            <ArrowRight />
+          </a>
         </div>
       </section>
     </>

@@ -18,7 +18,7 @@
     },
     "colaboradores": {
       "title": "Programa de Colaboradores · OBIN",
-      "description": "Implementa ERPNext con descuento y pago a plazos a cambio de que tu proyecto sea un caso de éxito público de OBIN."
+      "description": "Implementa ERPNext con descuento y pago a plazos a cambio de que tu proyecto sea un caso de referencia público de OBIN."
     },
     "nosotros": {
       "title": "Nosotros · OBIN",
@@ -168,7 +168,7 @@
       "intro": "PYMES que dejaron el caos de las hojas de cálculo por sistemas reales.",
       "collaborationTeaser": {
         "back": "Casos de éxito",
-        "title": "¿Tu negocio puede ser nuestro próximo caso de éxito?",
+        "title": "¿Quieres que tu negocio sea nuestro próximo caso?",
         "description": "Implementa tu ERP con descuento y pago a plazos a cambio de contar tu historia.",
         "cta": "Conoce el Programa de Colaboradores"
       },
@@ -187,7 +187,7 @@
           "title": "Este programa es para ti si:",
           "items": [
             "Tienes un negocio en operación real (no un proyecto aún en papel).",
-            "Tus procesos de compras, ventas, inventario o facturación se pueden digitalizar de forma clara.",
+            "Tus procesos de compras, ventas o inventario se pueden digitalizar de forma clara.",
             "Estás dispuesto a que tu negocio sea un caso público: autorizar el uso de tu nombre, marca y testimonio.",
             "Cuentas con capacidad de pago parcial (el programa no sustituye el pago, lo hace más accesible)."
           ]
@@ -268,15 +268,15 @@
             },
             {
               "area": "Licencias y terceros",
-              "includes": "Configuración de integraciones ya cotizadas (por ejemplo, CFDI).",
-              "excludes": "Costo de licencias, PAC de timbrado, hosting o servicios de terceros."
+              "includes": "Configuración de integraciones ya cotizadas.",
+              "excludes": "Costo de licencias, hosting o servicios de terceros."
             }
           ]
         },
         "asks": {
           "title": "Lo que te pedimos como colaborador",
           "items": [
-            "Autorizar el uso de tu nombre o marca, testimonio, capturas de pantalla y métricas del proyecto como caso de éxito público.",
+            "Autorizar el uso de tu nombre o marca, testimonio, capturas de pantalla y métricas del proyecto como caso de referencia público.",
             "Participar en la documentación del caso: una entrevista, un video corto o un testimonio escrito.",
             "Cumplir con el plan de pagos a plazos acordado.",
             "Brindar la información y disponibilidad necesarias durante el diagnóstico y la implementación."
@@ -291,7 +291,11 @@
             "La misma calidad de entrega que un proyecto de pago completo."
           ]
         },
-        "closing": "¿Te interesa participar? Contáctanos y con gusto agendamos tu diagnóstico inicial."
+        "closing": {
+          "title": "¿Te interesa participar?",
+          "description": "Contáctanos y con gusto agendamos tu diagnóstico inicial.",
+          "cta": "Agendar diagnóstico"
+        }
       }
     },
     "nosotros": {

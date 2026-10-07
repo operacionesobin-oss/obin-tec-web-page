@@ -18,7 +18,7 @@
     },
     "colaboradores": {
       "title": "Collaborator Program · OBIN",
-      "description": "Get ERPNext implemented with a discount and installment payments in exchange for your project becoming a public OBIN success story."
+      "description": "Get ERPNext implemented with a discount and installment payments in exchange for your project becoming a public OBIN case study."
     },
     "nosotros": {
       "title": "About · OBIN",
@@ -168,7 +168,7 @@
       "intro": "SMBs that left spreadsheet chaos behind for real systems.",
       "collaborationTeaser": {
         "back": "Case studies",
-        "title": "Could your business be our next success story?",
+        "title": "Want your business to be our next case study?",
         "description": "Get your ERP implemented with a discount and installment payments in exchange for telling your story.",
         "cta": "Explore the Collaborator Program"
       },
@@ -187,7 +187,7 @@
           "title": "This program is for you if:",
           "items": [
             "You run a business that is actually operating (not a project still on paper).",
-            "Your purchasing, sales, inventory or invoicing processes can be clearly digitized.",
+            "Your purchasing, sales or inventory processes can be clearly digitized.",
             "You are willing to make your business a public case: authorizing the use of your name, brand and testimonial.",
             "You can make a partial payment (the program doesn't replace payment, it makes it more accessible)."
           ]
@@ -268,15 +268,15 @@
             },
             {
               "area": "Licenses and third parties",
-              "includes": "Setup of integrations already quoted (for example, CFDI e-invoicing).",
-              "excludes": "Cost of licenses, CFDI stamping provider (PAC), hosting or third-party services."
+              "includes": "Setup of integrations already quoted.",
+              "excludes": "Cost of licenses, hosting or third-party services."
             }
           ]
         },
         "asks": {
           "title": "What we ask of you as a collaborator",
           "items": [
-            "Authorize the use of your name or brand, testimonial, screenshots and project metrics as a public success story.",
+            "Authorize the use of your name or brand, testimonial, screenshots and project metrics as a public case study.",
             "Take part in documenting the case: an interview, a short video or a written testimonial.",
             "Keep to the agreed installment plan.",
             "Provide the information and availability needed during the diagnostic and implementation."
@@ -291,7 +291,11 @@
             "The same delivery quality as a fully paid project."
           ]
         },
-        "closing": "Interested in taking part? Get in touch and we'll gladly schedule your initial diagnostic."
+        "closing": {
+          "title": "Interested in taking part?",
+          "description": "Get in touch and we'll gladly schedule your initial diagnostic.",
+          "cta": "Book a diagnostic"
+        }
       }
     },
     "nosotros": {

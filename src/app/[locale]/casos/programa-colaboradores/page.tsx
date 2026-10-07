@@ -4,7 +4,6 @@ import { getDictionary, isLocale, defaultLocale } from '@/lib/i18n';
 import { buildMetadata } from '@/lib/pageMeta';
 import PageHeader from '@/components/PageHeader';
 import CollaborationProgram from '@/components/CollaborationProgram';
-import CTABand from '@/components/CTABand';
 import { ArrowRight } from '@/components/icons';
 
 export function generateMetadata({ params }: { params: { locale: string } }): Metadata {
@@ -30,9 +29,6 @@ export default function ProgramaColaboradoresPage({ params }: { params: { locale
       <PageHeader title={t.title} intro={t.description} />
       <div className="pt-12">
         <CollaborationProgram locale={locale} dict={dict} />
-      </div>
-      <div className="pt-24">
-        <CTABand locale={locale} dict={dict} />
       </div>
     </>
   );
