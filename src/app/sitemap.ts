@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { locales } from '@/lib/i18n';
 
 const SITE_URL = 'https://obin.tech';
-const routes = ['', '/servicios', '/plataforma', '/casos', '/nosotros', '/blog', '/contacto'];
+const routes = ['', '/servicios', '/plataforma', '/casos', '/casos/programa-colaboradores', '/nosotros', '/blog', '/contacto'];
 
 /* Con `trailingSlash` activo la URL canónica termina en barra. El sitemap tiene
    que emitir exactamente esa forma: si listara `/es/servicios`, cada entrada
